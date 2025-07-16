@@ -28,12 +28,12 @@ window.addEventListener("scroll", function () {
   if (navbar) {
     if (window.scrollY > 50) {
       navbar.style.background =
-        "linear-gradient(135deg, #677BE5 0%, #764ba2 100%)";
+        "#092254";
       navbar.style.backdropFilter = "blur(15px)";
       navbar.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.1)";
     } else {
       navbar.style.background =
-        "linear-gradient(135deg, #677BE5 0%, #764ba2 100%)";
+        "#092254";
       navbar.style.backdropFilter = "blur(10px)";
       navbar.style.boxShadow = "none";
     }
