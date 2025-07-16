@@ -2,26 +2,26 @@
 
 /* CSS Variables - Updated Color Scheme */
 :root {
-  --primary-color: #667eea; /* Deep Blue */
-  --secondary-color: #764ba2; /* Teal */
-  --accent-color: #f093fb; /* Light Teal */
-  --light-accent: #f7fafc; /* Very Light Green */
-  --neutral-color: #718096; /* Gray */
-  --success-color: #10b981;
+  --primary-color: #071952; /* Deep Navy Blue - strong and bold */
+  --secondary-color: #0B666A; /* Rich Teal - vibrant and modern */
+  --accent-color: #35A29F; /* Aqua Accent - clean and fresh */
+  --light-accent: #97FEED; /* Light Mint - for soft highlights */
+  --neutral-color: #6b7280; /* Neutral Gray - for subtle UI */
+  --success-color: #22c55e;
   --warning-color: #f59e0b;
   --error-color: #ef4444;
-  --light-gray: #e2e8f0;
-  --dark-gray: #2d3748;
+  --light-gray: #f3f4f6;
+  --dark-gray: #1e293b;
   --white: #ffffff;
   --black: #000000;
 
   /* Gradient Variables */
-  --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --secondary-gradient: linear-gradient(135deg, #764ba2 0%, #f093fb 100%);
+  --primary-gradient: linear-gradient(135deg, #071952 0%, #0B666A 100%);
+  --secondary-gradient: linear-gradient(135deg, #0B666A 0%, #35A29F 100%);
   --hero-gradient: linear-gradient(
     135deg,
-    rgba(102, 126, 234, 0.9) 0%,
-    rgba(118, 75, 162, 0.8) 100%
+    rgba(7, 25, 82, 0.9) 0%,
+    rgba(11, 102, 106, 0.8) 100%
   );
 
   /* Font Variables */
@@ -36,6 +36,7 @@
   --spacing-xl: 48px;
   --spacing-xxl: 64px;
 }
+
 
 /* Global Styles */
 * {
@@ -138,6 +139,7 @@ p {
 
 /* Navigation Styles */
 .custom-navbar {
+   background: #092254;
   backdrop-filter: blur(10px);
   padding: var(--spacing-sm) 0;
   transition: all 0.3s ease;
@@ -1232,7 +1234,7 @@ p {
 }
 /* Footer Styles */
 .footer {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background:linear-gradient(135deg, #071952 0%, #0B666A 100%);
   color: var(--white);
   padding: var(--spacing-xxl) 0 var(--spacing-lg);
   margin-top: var(--spacing-xxl);
